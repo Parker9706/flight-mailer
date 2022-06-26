@@ -1,0 +1,24 @@
+{
+  "name": "flight-mailer",
+  "version": "1.0.0",
+  "description": "A node-mailer service that automates a newsletter to feature the cheapest flights to pre-selected destinations.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parker9706/flight-mailer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parker9706/flight-mailer/issues"
+  },
+  "homepage": "https://github.com/Parker9706/flight-mailer#readme",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
