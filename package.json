@@ -4,7 +4,9 @@
   "description": "A node-mailer service that automates a newsletter to feature the cheapest flights to pre-selected destinations.",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "type": "module",
   "repository": {
